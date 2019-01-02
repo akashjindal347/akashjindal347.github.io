@@ -1,5 +1,14 @@
 body{
     background-color: white ;
+    padding-top: 90px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    margin-bottom: 20px;
+    z-index:1;
 }
 .main{
     padding: 0px;
