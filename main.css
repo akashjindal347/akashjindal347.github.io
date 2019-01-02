@@ -134,25 +134,24 @@ body{
     border-radius: 1%;
 }
 .section3{
-    background-color:#B0ACAC;
-    border-radius: 1%;
-    width: 1080px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+   background-color:#B0ACAC;
+   border-radius: 1%;
+   max-width: 1080px;
     padding-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+   
+   
 }
-
-.edu-img{
- display: block;
-    width: 50%;
-    max-width: 50%;
-    height: auto;
-    border-radius: 1%;
+.edu{
+    text-align: center;
     margin: auto;
+    margin-bottom: 20px;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    color: white;
 }
-figcaption{
-    
-text-align: center;
-    margin-top: 10px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+.eduhead{
+    color: deepskyblue;
 }
