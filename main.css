@@ -14,6 +14,7 @@ body{
 .img1{
     display: block;
     width: 70%;
+    height: auto;
     border-radius: 50%;
     margin: auto;
   
@@ -23,6 +24,15 @@ body{
     margin: auto;
     color: white;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom:10px;
+}
+.btn2{
+    display: block;
+    margin: auto;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 20px;
+    width:200px;
 }
 .btn1:hover {background-color: white}
 
@@ -30,8 +40,8 @@ body{
     display: block;
     margin: auto;
     
-    background: #D7D5D5;
-    width: 1080px;
+    background: #B0ACAC;
+    max-width: 1080px;
     border-radius: 1%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
@@ -102,4 +112,22 @@ figcaption{
 }
 .fa-linkedin{
     color: #3b5998;
+}
+.section2{
+   display: block;
+    margin: auto;
+    max-width: 1100px;
+    margin-bottom: 20px;
+    
+}
+.myskills{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.mycard{
+    background-color:#B0ACAC;
+     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 1%;
 }
