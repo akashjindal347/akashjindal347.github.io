@@ -1,5 +1,5 @@
 body{
-    background-color: #C4C9CF ;
+    background-color: white ;
 }
 .main{
     padding: 10px;
@@ -13,16 +13,44 @@ body{
 }
 .img1{
     display: block;
-    width: 25%;
+    width: 70%;
     border-radius: 50%;
     margin: auto;
-    
-    
+  
 }
+.btn1{
+    display: block;
+    margin: auto;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.btn1:hover {background-color: white}
 
 .jumbotron{
-    text-align: center;
-    background: none;
+    display: block;
+    margin: auto;
+    
+    background: #D7D5D5;
+    width: 1080px;
+    border-radius: 1%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.name{
+    font-size: 35px;
+}
+.title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.description{
+    text-align: left;
+    font-family: arial;
+}
+.list{
+   font-weight: bold;
+  
+}
+.span{
+    font-weight: lighter;
 }
 .img2{
     width: 50%;
@@ -69,5 +97,9 @@ figcaption{
     color: hotpink;
 }
 .fa-github{
-    color: white;
+    color: black;
+    margin-left: 10px;
+}
+.fa-linkedin{
+    color: #3b5998;
 }
