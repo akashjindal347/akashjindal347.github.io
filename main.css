@@ -23,14 +23,15 @@ body{
     display: block;
     margin: auto;
     color: white;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-bottom:10px;
 }
+.btn1:hover{opacity: 0.8;}
 .btn2{
     display: block;
     margin: auto;
     color: white;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-bottom: 20px;
     width:200px;
 }
@@ -49,7 +50,7 @@ body{
     font-size: 35px;
 }
 .title{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .description{
     text-align: left;
@@ -76,12 +77,7 @@ body{
     font-family: helvetica;
     margin-top: 10px;
 }
-figcaption{
-    text-align: center;
-    font-family: helvetica;
-    text-decoration: none;
-    color: black;
-}
+
 .dark{
     background-color: #F7DC6F;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -124,10 +120,39 @@ figcaption{
     text-align: center;
     color: black;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+.myeducation{
+  text-align: center;
+    color: black;
+    font-size: 30px;
+      
 }
 .mycard{
     background-color:#B0ACAC;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 1%;
+}
+.section3{
+    background-color:#B0ACAC;
+    border-radius: 1%;
+    width: 1080px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.edu-img{
+ display: block;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 1%;
+    margin: auto;
+}
+figcaption{
+    
+text-align: center;
+    margin-top: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
