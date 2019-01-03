@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
     <!--CSS-->
@@ -24,27 +25,27 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link lead" href="#about-me">About me <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#about-me">About me <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link lead" href="#skills">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link lead" href="#education">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link lead" href="#">Projects</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
-        <br>
+        
 
         <!-- section 1- about me-->
-        <div class="jumbotron jumbotron-fluid" id="about-me">
+        <div class="jumbotron jumbotron-fluid" data-aos="zoom-in-up" id="about-me">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-lg-6">
@@ -54,7 +55,7 @@
                     <div class="col-sm-12 col-lg-6">
                         <h2 class="name lead">Hey I'm Akash Jindal!</h2>
                         <h5 class="title">Web Developer and Data Scientist</h5>
-                        <p class="description">I'm a Engineering student, Web developer,Data Scientist and Coding Enhthusiast.</p>
+                        <p class="description">I'm a Engineering student, Web developer,Data Scientist and Coding Enthusiast.</p>
 
                         <p class="list">AGE: <span class="span lead">19</span></p>
                         <p class="list">ADDRESS: <span class="span lead"> Thapar Institute of Engineering and Technology, Patiala, Punjab</span></p>
@@ -71,65 +72,108 @@
         </div>
         <br><br>
         <!-- section 2 skills-->
-        <div class="container-fluid section2" id="skills">
+        <div class="container-fluid section2" data-aos="zoom-in-up" id="skills">
             <div class="card">
                 <div class="card-body mycard">
                     <h2 class="lead myskills">MY SKILLS</h2>
                     <div class="row">
                         <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">HTML</button>
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">HTML</button>
                         </div>
                         <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">CSS</button>
-                        </div>
-                    </div>
-                     <div class="row">
-                        <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Javascript</button>
-                        </div>
-                        <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Node.js</button>
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">CSS</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">C/C++</button>
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Javascript</button>
                         </div>
                         <div class="col-sm-12 col-lg-6">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Python</button>
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Node.js</button>
                         </div>
                     </div>
-                     <div class="row">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">C/C++</button>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Python</button>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-sm-12 col-lg-12">
-                        <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Data Structures</button>
+                            <button type="button" class="btn btn2 btn-dark bg-inverse btn-lg">Data Structures</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div><br>
-        <div class="container fluid section3" id="education">
+        <!--Section 3-->
+        <div class="container fluid section3" data-aos="zoom-in-up" id="education">
             <h2 class="lead myeducation">MY EDUCATION</h2>
             <div class="row">
                 <div class="col-xs-12 col-lg-6">
-                   <div class="card edu bg-inverse">
+                    <div class="card edu bg-inverse">
                         <div class="card-body">
                             <h3 class="lead eduhead">SECONDARY EDUCATION! (2015-17)</h3>
                             <p>I did my secondary education from The S.D Vidya School, Ambala Cantt and I got 9.2 Cgpa in class X and 91% in Class XII</p>
                         </div>
-                   </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-lg-6">
-                   <div class="card edu bg-inverse">
+                    <div class="card edu bg-inverse">
                         <div class="card-body">
                             <h3 class="lead eduhead">COLLEGE! (2017-21)</h3>
-                            <p>I'm currently pursuing BTech from Thapar Institute Of Engg and Tech. My current Cgpa is 9.30</p>
+                            <p>I'm currently pursuing BTech from Thapar Institute Of Engg and Tech. My current Cgpa is 9.30 </p>
                         </div>
-                   </div>
-                </div>
+                    </div>
                 </div>
             </div>
-            
-        
+        </div>
+        <!--section 4-->
+       <div class="container-fluid section4" data-aos="zoom-in-up" id="experience">
+            <h1 class="lead exp-head"> MY EXPERIENCE</h1>
+            <div class="row">
+                <div class="col-xs-12 col-lg-6">
+                    <div class="card edu bg-inverse">
+                        <div class="card-body">
+                            <h3 class="lead eduhead">Entrepreneurship Development Cell, TIET</h3>
+                            <ul class="exp-list"><li>Executive Team member (Aug 2018-Present)</li>
+                                <li>IOT Workshop Head</li></ul>
+                            
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6">
+                    <div class="card edu bg-inverse">
+                        <div class="card-body">
+                            <h3 class="lead eduhead">Microsoft Student Chapter, TIET</h3>
+                            <ul class="exp-list"><li>Executive Team member (Aug 2018-Present)</li>
+                                <li>Web Developer and Marketer</li></ul>
+                            
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-12">
+                    <div class="card edu bg-inverse">
+                        <div class="card-body">
+                            <h3 class="lead eduhead">OWASP Student Chapter, TIET</h3>
+                            <ul class="exp-list"><li>Executive Team member (Aug 2017-July 2018)</li>
+                                <li>Event Management and Technical team member</li></ul>
+                            
+                                
+                        </div>
+                    </div>
+                </div>
+                    
+                
+               
+            </div>
+        </div>
+
+
 
 
     </div>
@@ -140,7 +184,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 
 </body>
 
