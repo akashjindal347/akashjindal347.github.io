@@ -1,5 +1,5 @@
 body{
-    background-color: white ;
+    background-color: #F0F0F0 ;
     padding-top: 90px;
 }
 .navbar{
@@ -9,6 +9,8 @@ body{
     right: 0;
     margin-bottom: 20px;
     z-index:1;
+    border-radius: 2%;
+    background-color: #222629;
 }
 .main{
     padding: 0px;
@@ -181,4 +183,20 @@ text-align: center;
 }
 .exp-list{
     text-align: left;
+}
+.footer-head{
+    color: #f0f0f0;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #222629;
+   
+    
+}
+.fa-heart{
+    color: firebrick;
 }
