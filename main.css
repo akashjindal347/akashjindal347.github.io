@@ -9,18 +9,22 @@ body{
     right: 0;
     margin-bottom: 20px;
     z-index:1;
-    border-radius: 2%;
     background-color: #222629;
 }
 .main{
     padding: 0px;
 }
 .span1{
-    color: deepskyblue;
+    color: #faed26;
+    font-family: 'Major Mono Display', monospace;
+}
+.fa-smile{
+    color: #faed26;
 }
 .navbar-brand{
     padding-right: 600px;
-    padding-left: 100px;
+    padding-left: 80px;
+    font-family: 'Major Mono Display', monospace;
 }
 .img1{
     display: block;
@@ -28,23 +32,25 @@ body{
     height: auto;
     border-radius: 50%;
     margin: auto;
+    
   
 }
 .btn1{
     display: block;
     margin: auto;
-    color: white;
+    background-color: #faed26;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-bottom:10px;
 }
-.btn1:hover{opacity: 0.8;}
+.btn1:hover{ background-color: darkgreen;}
 .btn2{
     display: block;
     margin: auto;
-    color: white;
+    color: black;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-bottom: 20px;
     width:200px;
+    background-color: #faed26;
 }
 .btn1:hover {background-color: white}
 
@@ -52,27 +58,32 @@ body{
     display: block;
     margin: auto;
     
-    background: #a2a2a2;
+    background: #222629;
     max-width: 1080px;
     border-radius: 1%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 .name{
     font-size: 35px;
+    color: #6b6e70;
 }
 .title{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+    font-weight: lighter;
 }
 .description{
     text-align: left;
     font-family: arial;
+    color: white;
 }
 .list{
-   font-weight: bold;
+   
+    color: #626b70;
   
 }
 .span{
     font-weight: lighter;
+    color: white;
 }
 .img2{
     width: 50%;
@@ -126,23 +137,23 @@ body{
 }
 .myskills{
     text-align: center;
-    color: black;
+    color: #626b70;
     font-size: 30px;
     margin-top: 20px;
 }
 .myeducation{
   text-align: center;
-    color: black;
+    color: #626b70;
     font-size: 30px;
       
 }
 .mycard{
-    background-color:#a2a2a2;
+    background-color:#222629;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 1%;
 }
 .section3{
-   background-color:#a2a2a2;
+   background-color:#222629;
    border-radius: 1%;
    max-width: 1080px;
     padding-top: 10px;
@@ -159,14 +170,15 @@ body{
     height: auto;
     padding: 10px;
     color: white;
+    background-color: #474b4f;
 }
 .eduhead{
-    color: deepskyblue;
+    color:  #faed26;
     font-size: 100%;
 }
 .exp-head{
 text-align: center;
-    color: black;
+    color: #626b70;
     font-size: 30px;
     margin-top: 20px;
     padding-top: 20px;
@@ -176,7 +188,7 @@ text-align: center;
     display: block;
     margin: auto;
     max-width: 1080px;
-    background-color:#a2a2a2;
+    background-color:#222629;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 1%;
     margin-bottom: 50px;
@@ -184,13 +196,48 @@ text-align: center;
 .exp-list{
     text-align: left;
 }
+.section5{
+    max-width: 1080px;
+    margin-bottom: 30px;
+}
+.project-head{
+    text-align: center;
+    font-size: 30px;
+}
+.project-card1{
+    display: block;
+    margin: auto;
+   margin-bottom: 30px;
+     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    
+}
+.project-card2{
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-text{
+    text-align: center;
+}
+.btn3{
+   text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
 .footer-head{
-    color: #f0f0f0;
+    color: #626b70;
     padding-top: 20px;
     display: block;
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
+    font-style: italic;
 }
 .footer{
     background-color: #222629;
