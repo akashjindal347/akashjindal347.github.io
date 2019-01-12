@@ -244,6 +244,8 @@ text-align: center;
     display: block;
     margin: auto;
     margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #13191e;
 }
 .footer-head{
     color: #626b70;
