@@ -25,6 +25,7 @@ body{
     padding-right: 600px;
     padding-left: 60px;
     font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
 }
 .img1{
     display: block;
@@ -42,6 +43,7 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: white;
     margin-bottom:10px;
+    cursor: pointer;
 }
 .btn2{
     display: block;
@@ -53,7 +55,7 @@ body{
     background-color: #13191E;
     font-weight: lighter;
 }
-.btn1:hover {background-color: firebrick;}
+.btn1:hover {background-color: ;}
 
 .jumbotron{
     display: block;
@@ -134,7 +136,7 @@ body{
 .section2{
    display: block;
     margin: auto;
-    max-width: 1080px;
+    max-width: 1110px;
     margin-bottom: 20px;
     
 }
@@ -143,11 +145,15 @@ body{
     color: #13191E;
     font-size: 30px;
     margin-top: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
 }
 .myeducation{
   text-align: center;
     color: #13191E;
     font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
       
 }
 .mycard{
@@ -178,6 +184,7 @@ body{
 .eduhead{
     color: #626b70;
     font-size: 100%;
+    
 }
 .exp-head{
 text-align: center;
@@ -185,6 +192,8 @@ text-align: center;
     font-size: 30px;
     margin-top: 20px;
     padding-top: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
     
 }
 .section4{
@@ -207,6 +216,8 @@ text-align: center;
 .project-head{
     text-align: center;
     font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
 }
 .project-card1{
     display: block;
@@ -241,7 +252,8 @@ text-align: center;
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
-    font-style: italic;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 100%;
 }
 .footer{
     background-color: #13191e;
@@ -251,4 +263,3 @@ text-align: center;
 .fa-heart{
     color: firebrick;
 }
-
