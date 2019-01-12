@@ -1,6 +1,6 @@
 body{
-    background-color: #F0F0F0 ;
-    padding-top: 90px;
+    background: #13191E url("image/pattern.svg") top left/auto repeat;
+    padding-top: 50px;
 }
 .navbar{
     position: fixed;
@@ -9,13 +9,13 @@ body{
     right: 0;
     margin-bottom: 20px;
     z-index:1;
-    background-color: #222629;
+    background: #1C2329;
 }
 .main{
     padding: 0px;
 }
 .span1{
-    color: #faed26;
+    color: #626b70;
     font-family: 'Major Mono Display', monospace;
 }
 .fa-smile{
@@ -38,27 +38,28 @@ body{
 .btn1{
     display: block;
     margin: auto;
-    background-color: #faed26;
+    background-color: #13191E;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
     margin-bottom:10px;
 }
-.btn1:hover{ background-color: darkgreen;}
 .btn2{
     display: block;
     margin: auto;
-    color: black;
+    color: white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-bottom: 20px;
     width:200px;
-    background-color: #faed26;
+    background-color: #13191E;
+    font-weight: lighter;
 }
-.btn1:hover {background-color: white}
+.btn1:hover {background-color: firebrick;}
 
 .jumbotron{
     display: block;
     margin: auto;
     
-    background: #222629;
+    background: white;
     max-width: 1080px;
     border-radius: 1%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -66,7 +67,7 @@ body{
 }
 .name{
     font-size: 35px;
-    color: #6b6e70;
+    color: #13191E;
 }
 .title{
     color: white;
@@ -75,16 +76,17 @@ body{
 .description{
     text-align: left;
     font-family: arial;
-    color: white;
+    color: black;
 }
 .list{
    
-    color: #626b70;
+    color: #13191E;
+    font-weight: bold;
   
 }
 .span{
     font-weight: lighter;
-    color: white;
+    color: black;
 }
 .img2{
     width: 50%;
@@ -138,23 +140,23 @@ body{
 }
 .myskills{
     text-align: center;
-    color: #626b70;
+    color: #13191E;
     font-size: 30px;
     margin-top: 20px;
 }
 .myeducation{
   text-align: center;
-    color: #626b70;
+    color: #13191E;
     font-size: 30px;
       
 }
 .mycard{
-    background-color:#222629;
+    background-color:white;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 1%;
 }
 .section3{
-   background-color:#222629;
+   background-color:white;
    border-radius: 1%;
    max-width: 1080px;
     padding-top: 10px;
@@ -171,15 +173,15 @@ body{
     height: auto;
     padding: 10px;
     color: white;
-    background-color: #474b4f;
+    background-color: #13191E;
 }
 .eduhead{
-    color:  #faed26;
+    color: #626b70;
     font-size: 100%;
 }
 .exp-head{
 text-align: center;
-    color: #626b70;
+    color: #13191E;
     font-size: 30px;
     margin-top: 20px;
     padding-top: 20px;
@@ -189,7 +191,7 @@ text-align: center;
     display: block;
     margin: auto;
     max-width: 1080px;
-    background-color:#222629;
+    background-color:white;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 1%;
     margin-bottom: 50px;
@@ -198,8 +200,9 @@ text-align: center;
     text-align: left;
 }
 .section5{
-    max-width: 1080px;
-    margin-bottom: 30px;
+    
+    padding-top: 30px;
+    background-color: white;
 }
 .project-head{
     text-align: center;
@@ -241,10 +244,11 @@ text-align: center;
     font-style: italic;
 }
 .footer{
-    background-color: #222629;
+    background-color: #13191e;
    
     
 }
 .fa-heart{
     color: firebrick;
 }
+
