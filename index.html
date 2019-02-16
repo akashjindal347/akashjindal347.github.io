@@ -13,6 +13,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="carousel.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Major+Mono+Display" rel="stylesheet">
 </head>
 
@@ -200,33 +201,51 @@
         <!-- section 5-->
         <div class="container-fluid section5" id="projects">
             <h1 class="lead project-head">my pROjects</h1>
-            <div class="row">
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card project-card2" data-aos="zoom-in-up" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="image/makeathon.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title lead">MSC Makeathon 2k19 website</h5>
-                            <p class="card-text">This is a website which I made for the microsoft student chapter's event: MAKEATHON 2k19!</p>
-                            <a href="https://makeathon.msctiet.co.in/" target="_blank"><button type="button" class="btn btn-primary btn3">See yourself</button></a>
-                        </div>
-                    </div>
+            
+            
+  <main>
 
-                </div>
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card project-card2" data-aos="zoom-in-up" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="image/edc.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title lead">EDC website</h5>
-                            <p class="card-text">Entrepreneurship Development Cell, TIET Official Website</p>
-                            <a href="https://edctiet.com/" target="_blank"><button type="button" class="btn btn-primary btn3">See yourself</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div id="carousel" style="margin-top: 250px;">
+
+      <!-- <div class="hideLeft">
+        
+      </div>
+
+      <div class="prevLeftSecond">
+       
+      </div>-->
+
+      <div class="prev">
+          <a href="https://edctiet.com/" target="_blank" ><img src="image/edc1.jpg"></a>
+      </div>
+
+      <div class="selected">
+        <a href="https://makeathon.msctiet.co.in/" target="_blank" ><img src="image/makeathon1.jpg"></a>
+      </div>
+
+      <div class="next">
+          <a href="https://github.com/akashjindal347/Enactus-Thapar-website" target="_blank" ><img src="image/enactus.jpg"></a>
+        </div>
+        
+
+      <!--<div class="nextRightSecond">
+        <img src="https://i1.sndcdn.com/artworks-000108468163-dp0b6y-t500x500.jpg">
+      </div>
+
+      <div class="hideRight">
+        <img src="https://i1.sndcdn.com/artworks-000064920701-xrez5z-t500x500.jpg">
+      </div>-->
+        
+
+    </div>
+
+   
+
+  </main>
             
             
         </div>
-        <!--section6-->
+        <!--section5-->
         
 
 
@@ -255,6 +274,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="carousel.js"></script>
     <script>
         AOS.init();
     </script>
