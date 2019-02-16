@@ -78,8 +78,6 @@ html, body, main {
 }
 
 .buttons {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 10px;
+  
+  
 }
