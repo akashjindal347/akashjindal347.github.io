@@ -1,1 +1,1 @@
-#Hey everyone Im Akash Jindal and this is my personal portfolio.
+Hey everyone, I'm Akash Jindal and this is my personal portfolio.
