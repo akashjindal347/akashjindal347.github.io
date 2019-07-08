@@ -81,6 +81,10 @@
  *  Defult CSS 
  * -------------------
  */
+
+ .myprojects:hover{
+   background-color: #f50136;
+ }
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
@@ -875,7 +879,7 @@ body {
   border-color: #E91E63; }
 
 .section-loader .loader div:nth-child(2) {
-  border-color: #0dbda1;
+  border-color: #f50136;
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s; }
 
@@ -944,7 +948,7 @@ body {
         padding-left: 0;
         padding-right: 0; }
       .mh-header .navbar-nav li a:hover {
-        color: #f50136; }
+        color: #bf022b; }
 
 .nav-3 .navbar-dark .navbar-nav .nav-link a {
   color: rgba(255, 255, 255, 0.7); }
@@ -1404,12 +1408,12 @@ body {
       -o-transition: 0.3s;
       -webkit-transition: 0.3s;
       transition: 0.3s;
-      background-color: #0ab69a; }
+      background-color: #f50136; }
   .mh-pricing .mh-pricing .fa {
     font-size: 30px;
     line-height: 36px;
     margin-bottom: 20px;
-    color: #7af8e4; }
+    color: #f50136; }
   .mh-pricing .mh-pricing h4 {
     margin-bottom: 10px;
     margin-top: 20px; }
@@ -1874,7 +1878,7 @@ body {
   .old .navbar-toggler:focus {
     outline: 0 !important; }
   .old .strict {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     padding-bottom: 65px; }
   .old .navbar-toggler {
     padding: 15px;
@@ -2016,8 +2020,10 @@ body {
     -o-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
     -ms-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
     -moz-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
-    -webkit-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1); }
+    -webkit-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+   }
   .new .collapse {
+   
     display: block; }
   .new .navbar-fixed-bottom .navbar-collapse,
   .new .navbar-fixed-top .navbar-collapse {
@@ -2188,7 +2194,7 @@ body {
     -moz-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
     -webkit-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1); }
   .new .collapse.in {
-    background-color: rgba(0, 0, 0, 0.9); }
+    background-color: rgba(0, 0, 0, 0.5); }
   .new .navbar-dark .navbar-toggler {
     border-color: transparent; }
   .new .navbar-dark .navbar-toggler-icon {
@@ -2352,7 +2358,7 @@ body {
       color: #fff;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      background: rgba(11, 206, 175, 0.9); }
+      background: #ff1c4d; }
       .mh-project-gallery .grid-item figure:hover figcaption:after {
         opacity: 1;
         transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
